@@ -17,8 +17,8 @@
 	{
 		"id": "9101",
 		"name": "Nomos Software",
-		"summary": false,
-		"details": "",
+		"summary": "Onboarding new customers, and rolling out new services and products to existing customers, often involves integrating the customers IT systems via the organisation's APIs and XML channels. Customer portals from Nomos make this process smoother by providing an interactive means for customers to understand and uncover the business policies that they must comply with. The portals are also used to tro",
+		"details": "Onboarding new customers, and rolling out new services and products to existing customers, often involves integrating the customers IT systems via the organisation's APIs and XML channels. Customer portals from Nomos make this process smoother by providing an interactive means for customers to understand and uncover the business policies that they must comply with. The portals are also used to troubleshoot problems when automated requests from customers fail. ",
 		"website": "http://nomos-software.com/",
 		"twitter": "https://twitter.com/nomossoftware",
 		"github": "",
@@ -62,8 +62,8 @@
 	{
 		"id": "11317",
 		"name": "UNINETT HTTPjs",
-		"summary": false,
-		"details": "",
+		"summary": "Server API Mock-Ups in your browser. Mock an API in your browser, to prototype a backend or test your API client. Aids very rapid development of mock-up server APIs to improve the quality of your HTTP API clients.",
+		"details": "Server API Mock-Ups in your browser. Mock an API in your browser, to prototype a backend or test your API client. Aids very rapid development of mock-up server APIs to improve the quality of your HTTP API clients.",
 		"website": "http://httpjs.net/",
 		"twitter": "",
 		"github": "",
