@@ -9,9 +9,9 @@
 		"github": "https://github.com/amazonwebservices",
 		"blog": "http://aws.amazon.com/blogs/aws/",
 		"blogrss": "http://feeds.feedburner.com/AmazonWebServicesBlog",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/aws-logo.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-logo.jpg",
 		"logo_width": "150",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/aws-logo.png",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-logo.jpg",
 		"tags": null
 	},
 	{
@@ -72,6 +72,21 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mockable-io.jpeg",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mockable-io.jpeg",
+		"tags": null
+	},
+	{
+		"id": "n1168QMUUV9K6HVWkcI2ODb5W4Fuw7ejRvDEADe0S7L2lXi7CrvLkZ54SFa9Ueb94QLGGJQRUMMQQ5xK116YmMcicQ117117",
+		"name": "Mockaroo",
+		"summary": "Mockaroo lets you generate up to 1,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats.  If youre developing an application, youll want to make sure youre testing it under conditions that closely simulate a production environment. In production, youll have an army of users banging away at your app and filling your database with data, which puts stress on your code. If youre hand-e",
+		"details": "Mockaroo lets you generate up to 1,000 rows of realistic test data in CSV, JSON, SQL, and Excel formats.  If youre developing an application, youll want to make sure youre testing it under conditions that closely simulate a production environment. In production, youll have an army of users banging away at your app and filling your database with data, which puts stress on your code. If youre hand-entering data into a test environment one record at a time using the UI, youre never going to build up the volume and variety of data that your app will accumulate in a few days in production. Worse, the data you enter will be biased towards your own usage patterns and wont match real-world usage, leaving important bugs undiscovered.",
+		"website": null,
+		"twitter": null,
+		"github": null,
+		"blog": null,
+		"blogrss": null,
+		"logo": null,
+		"logo_width": null,
+		"screenshot": null,
 		"tags": null
 	},
 	{
