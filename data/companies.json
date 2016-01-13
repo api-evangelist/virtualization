@@ -150,21 +150,6 @@
 		"tags": null
 	},
 	{
-		"id": "123OKuTcmGvJHs4YK1237mGtp4rVi7c116HlHK8SOTB3A4zC3KoyAu123eFwmT5zrfZJpWkJ6c9w025wkKowQEQ8wvxsyw117117",
-		"name": "Reqres",
-		"summary": "Test your front-end against a real API. A hosted REST-API ready to respond to your AJAX requests. It might seem pretty weird to be sending your data to a 3rd party API, but I can assure you, Reqres does not store any of your data at all. Once you send it to us, we just send it straight back...and then its gone!",
-		"details": "Test your front-end against a real API. A hosted REST-API ready to respond to your AJAX requests. It might seem pretty weird to be sending your data to a 3rd party API, but I can assure you, Reqres does not store any of your data at all. Once you send it to us, we just send it straight back...and then its gone!",
-		"website": "http://reqr.es/",
-		"twitter": "",
-		"github": "https://github.com/benhowdle89/reqres",
-		"blog": "",
-		"blogrss": "",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/reqres-logo.png",
-		"logo_width": "150",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/reqres-logo.png",
-		"tags": null
-	},
-	{
 		"id": "5XY9ZmWQTyosDZvFCZ6cTFcMYRYz2h0GIoyxX0OinNHu4TKtVCYplbfx5gF17zutie84lMk6i3U7wTsc1sc1FQ117117",
 		"name": "SmartBear Software",
 		"summary": "SmartBear Software provides tools for over 100,000 software professionals to build, test, and monitor some of the best software applications and websites anywhere on the desktop, mobile and in the cloud.",
