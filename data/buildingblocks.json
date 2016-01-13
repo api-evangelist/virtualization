@@ -145,7 +145,7 @@
 	{
 		"building_block_id": "cOIu5XaYAkO123XhIGwhVk4dcGeD0tWPXKCAsXqcZkpoe9Ut4roG8QBYHCZ123y4M6kawkUyCtG4hDryT123a1nwPNcQ117117",
 		"building_block_category_id": "hWzcbPJR2SskF123wu8jeMOrj9GFfHOti95rHUiH4XTfnub12123uQmuDpBD9TfW4G4123yN2tOXKGYICx7fFuDb6AjQ117117",
-		"name": "Import Blueprint",
+		"name": "Import API Blueprint",
 		"about": "Allow for the creation of virtualized APIs using existing API Blueprint definitions.",
 		"category_id": "218",
 		"category": "Import / Export",
