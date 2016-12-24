@@ -1,49 +1,33 @@
-name: Virtualization
-image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
-created: "2016-12-23"
-modified: "2016-12-23"
-url: http://virtualization.apievangelist.com/apis.json
+name: Definitions
+image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
+created: "2016-11-27"
+modified: "2016-11-27"
+url: http://definitions.apievangelist.com/apis.json
 specificationVersion: "0.14"
 apis: []
 tags:
-- Virtualization
-- Virtualization
+- Definitions
+- Definitions
 include:
-- name: Apiary
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/apiary/apis.yaml
-- name: Apigee API Studio
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/apigee-api-studio/apis.yaml
-- name: Apimint
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/apimint/apis.yaml
-- name: Computer Associates Service Virtualization
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/computer-associates-service-virtualization/apis.yaml
-- name: Crosscheck Networks
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/crosscheck-networks/apis.yaml
-- name: mockable.io
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/mockableio/apis.yaml
-- name: Mockaroo
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/mockaroo/apis.yaml
-- name: MockServer
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/mockserver/apis.yaml
-- name: MockServer
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/mockserver/apis.yaml
-- name: Mocky
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/mocky/apis.yaml
-- name: Monkeypod
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/monkeypod/apis.yaml
-- name: nomossoftware
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/nomossoftware/apis.yaml
-- name: Parasoft
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/parasoft/apis.yaml
-- name: RestCase
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/restcase/apis.yaml
-- name: Sandbox
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/sandbox/apis.yaml
-- name: SmartBear Software
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/smartbear-software/apis.yaml
-- name: UNINETT HTTPjs
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/uninett-httpjs/apis.yaml
-- name: vREST
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/vrest/apis.yaml
-- name: WireMock
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/wiremock/apis.yaml
+- name: Apache Avro
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/apache-avro/apis.yaml
+- name: API Blueprint
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/api-blueprint/apis.yaml
+- name: API Transformer
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/api-transformer/apis.yaml
+- name: Elastic Path
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/elastic-path/apis.yaml
+- name: Google
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/google/apis.yaml
+- name: OData.org
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/odataorg/apis.yaml
+- name: OpenAPI Spec
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/openapi-spec/apis.yaml
+- name: RAML
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/raml/apis.yaml
+- name: RESTdesc
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/restdesc/apis.yaml
+- name: Schema.org
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/schemaorg/apis.yaml
+- name: U.S. Data Federation
+  url: https://raw.githubusercontent.com/api-evangelist/definitions/gh-pages/_data/api-commons/us-data-federation/apis.yaml
