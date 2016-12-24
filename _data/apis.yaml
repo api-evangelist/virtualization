@@ -39,8 +39,6 @@ include:
   url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/restcase/apis.yaml
 - name: Sandbox
   url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/sandbox/apis.yaml
-- name: Sandbox
-  url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/sandbox/apis.yaml
 - name: SmartBear Software
   url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/smartbear-software/apis.yaml
 - name: UNINETT HTTPjs
