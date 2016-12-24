@@ -189,7 +189,7 @@ curated_desc: As I keep track on the world of APIs I curate news, blog posts, ar
 
 # organizations
 org_title: Some Organizations To Watch
-org_desc: These are the companies, and organizations who are doing interesting things when it comes to defining APIs. If they have an API, I'm working to profile, and provide machine readable indexes of each one below. If they do not have an API, I will just provide a brief profile of their operations.
+org_desc: These are the companies, and organizations who are doing interesting things when it comes to API virtualization. Most of what you see here are companies who provide API mocking solutions, but there are also other data or network focused virtualization solutions as well.
 org_footer: If there is an organization you think should be listed here, <a href="https://github.com/{{ site.org }}/{{ site.repo }}/issues" target="_blank">you can submit as Github issue for this research project</a> and I will consider adding.
 
 # tools
