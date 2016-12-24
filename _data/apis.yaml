@@ -7,7 +7,6 @@ specificationVersion: "0.14"
 apis: []
 tags:
 - Virtualization
-- Virtualization
 include:
 - name: Apiary
   url: https://raw.githubusercontent.com/api-evangelist/virtualization/gh-pages/_data/api-commons/apiary/apis.yaml
