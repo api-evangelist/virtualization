@@ -1,471 +1,400 @@
-- category_name: Formats
+- category_name: Core Virtualization
   building_blocks:
-  - building_block_id: 6dm4uWJcayeSeCUgXpeFjLO5XfWt9Jv97RXhTz8XH123I117
-    building_block_category_id: zc9mGRoqu0gk123Mh3KrFnaoPqkodGcNtqhTGHj8V3cJw117
-    name: Web Concepts
-    about: APIs are built on the web, and there are numerous web concepts in play
-      that should be considered as part of the API design process.
-    category_id: "309"
-    category: Formats
-    category_about: A new approach to defining APIs using JSON, YAML, and Markdown
-      instead of XML has gained in popularity, with popular formats like OpenAPI Spec
-      and API Blueprint being used to describe APIs, JSON Schema and MSON for defining
-      descriptions, and a variety of media types for common definitions.
-    category_image: ~
-    category_hex: ~
+  - building_block_id: VkgRuyAbVaIOatFt0erNJD6ONGMJTxq4xq123O123123B4Sig117
+    building_block_category_id: Nn1sn3jGfhcnFzPdQXLDWBwJ9VHESK9C9R0wX116mm3F0117
+    name: Mock
+    about: Creation of mock API interfaces that matches a specific API definition.
+    category_id: "216"
+    category: Core Virtualization
+    category_about: Containers are about managing virtualization at the compute level,
+      where API virtualization is looking to focus on the virtualization of APIs themselves,
+      and the data, content, and other resources that are being made available via
+      APIs.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
     image: ""
     image_width: "100"
-    sort_order: "1"
+    sort_order: "0"
     organizations: []
     apis: []
     links: []
     tools: []
     questions: []
-  - building_block_id: qH9CXkpGtblHgfUWAMu8doYUZBHT116GJofe76TUZfrUk117
-    building_block_category_id: zc9mGRoqu0gk123Mh3KrFnaoPqkodGcNtqhTGHj8V3cJw117
-    name: Media Types
-    about: A media type (also MIME type and content type) is a two-part identifier
-      for file formats and format contents transmitted on the Internet. The Internet
-      Assigned Numbers Authority (IANA) is the official authority for the standardization
-      and publication of these classifications.
-    category_id: "309"
-    category: Formats
-    category_about: A new approach to defining APIs using JSON, YAML, and Markdown
-      instead of XML has gained in popularity, with popular formats like OpenAPI Spec
-      and API Blueprint being used to describe APIs, JSON Schema and MSON for defining
-      descriptions, and a variety of media types for common definitions.
-    category_image: ~
-    category_hex: ~
+  - building_block_id: lDWXA9wfhbXZ123H116MLhdawNxM069KSznAVKoIgUStjqs117
+    building_block_category_id: Nn1sn3jGfhcnFzPdQXLDWBwJ9VHESK9C9R0wX116mm3F0117
+    name: Sandbox
+    about: Generation of a sandbox environment that matches a specific API definition.
+    category_id: "216"
+    category: Core Virtualization
+    category_about: Containers are about managing virtualization at the compute level,
+      where API virtualization is looking to focus on the virtualization of APIs themselves,
+      and the data, content, and other resources that are being made available via
+      APIs.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
     image: ""
     image_width: "100"
-    sort_order: "2"
+    sort_order: "0"
     organizations: []
     apis: []
     links: []
     tools: []
     questions: []
-  - building_block_id: VB74IrD116ubzdAuW5thU6yZZU5kbI01rBp3pEGQ9bvDE117
-    building_block_category_id: zc9mGRoqu0gk123Mh3KrFnaoPqkodGcNtqhTGHj8V3cJw117
-    name: Specification
-    about: The root specification for the API definition format, providing a base
-      set of rules for all services and tools that employ the spec.
-    category_id: "309"
-    category: Formats
-    category_about: A new approach to defining APIs using JSON, YAML, and Markdown
-      instead of XML has gained in popularity, with popular formats like OpenAPI Spec
-      and API Blueprint being used to describe APIs, JSON Schema and MSON for defining
-      descriptions, and a variety of media types for common definitions.
-    category_image: ~
-    category_hex: ~
-    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-schema.png
-    image_width: "1"
-    sort_order: "3"
-    organizations: []
-    apis: []
-    links: []
-    tools: []
-    questions: []
-  - building_block_id: ekZrUOTRAmYzPQ6KDbH6dy7xzqqsTQS9u2eRGi123B07k117
-    building_block_category_id: zc9mGRoqu0gk123Mh3KrFnaoPqkodGcNtqhTGHj8V3cJw117
-    name: Schema
-    about: 'A representation of data model, used as part of an API request, or response,
-      usually in JSON, but increasingly YAML, and Markdown are also used. '
-    category_id: "309"
-    category: Formats
-    category_about: A new approach to defining APIs using JSON, YAML, and Markdown
-      instead of XML has gained in popularity, with popular formats like OpenAPI Spec
-      and API Blueprint being used to describe APIs, JSON Schema and MSON for defining
-      descriptions, and a variety of media types for common definitions.
-    category_image: ~
-    category_hex: ~
-    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-schema.png
+  - building_block_id: ulEMbTs1OaLlX9M8OG6S116j4l116AZq07BVgXGaYDH8UIk117
+    building_block_category_id: Nn1sn3jGfhcnFzPdQXLDWBwJ9VHESK9C9R0wX116mm3F0117
+    name: Simulator
+    about: Creation of simulation environments from existing definitions.
+    category_id: "216"
+    category: Core Virtualization
+    category_about: Containers are about managing virtualization at the compute level,
+      where API virtualization is looking to focus on the virtualization of APIs themselves,
+      and the data, content, and other resources that are being made available via
+      APIs.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
+    image: ""
     image_width: "100"
-    sort_order: "4"
+    sort_order: "0"
     organizations: []
     apis: []
     links: []
     tools: []
     questions: []
-- category_name: Tooling
+  - building_block_id: UYKzHtyXDKgnWta1PEv0ttBq6qyE5AateR0EmGzYhbY117
+    building_block_category_id: Nn1sn3jGfhcnFzPdQXLDWBwJ9VHESK9C9R0wX116mm3F0117
+    name: Record
+    about: Recording the setup of a virtualization environment for use at later date.
+    category_id: "216"
+    category: Core Virtualization
+    category_about: Containers are about managing virtualization at the compute level,
+      where API virtualization is looking to focus on the virtualization of APIs themselves,
+      and the data, content, and other resources that are being made available via
+      APIs.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
+    image: ""
+    image_width: "100"
+    sort_order: "0"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: asAnyg0TZakDTiKiFpz116bQWjRhPeJ4TLpQlFRrnA123GA117
+    building_block_category_id: Nn1sn3jGfhcnFzPdQXLDWBwJ9VHESK9C9R0wX116mm3F0117
+    name: Playback
+    about: Setup of a virtualized environment captured from recording of earlier instance.
+    category_id: "216"
+    category: Core Virtualization
+    category_about: Containers are about managing virtualization at the compute level,
+      where API virtualization is looking to focus on the virtualization of APIs themselves,
+      and the data, content, and other resources that are being made available via
+      APIs.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
+    image: ""
+    image_width: "100"
+    sort_order: "0"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: UZ123116Rrs123mHOhhrAQC8FNXxT1tYcRP4iKCfTs2nRO8y4117
+    building_block_category_id: Nn1sn3jGfhcnFzPdQXLDWBwJ9VHESK9C9R0wX116mm3F0117
+    name: Verification
+    about: Verification that a virtualization environment exists and matches existing
+      definition.
+    category_id: "216"
+    category: Core Virtualization
+    category_about: Containers are about managing virtualization at the compute level,
+      where API virtualization is looking to focus on the virtualization of APIs themselves,
+      and the data, content, and other resources that are being made available via
+      APIs.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
+    image: ""
+    image_width: "100"
+    sort_order: "0"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: FxJ123f3aCWbbnXYmzdrpSe3123jPQXKmmLObsuXHpEOPKY117
+    building_block_category_id: Nn1sn3jGfhcnFzPdQXLDWBwJ9VHESK9C9R0wX116mm3F0117
+    name: Port Forwarding
+    about: Forward of specific ports to a specific virtualized API instance.
+    category_id: "216"
+    category: Core Virtualization
+    category_about: Containers are about managing virtualization at the compute level,
+      where API virtualization is looking to focus on the virtualization of APIs themselves,
+      and the data, content, and other resources that are being made available via
+      APIs.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
+    image: ""
+    image_width: "100"
+    sort_order: "0"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: y0qMHyp8O0JaGdgC1749A1xYEvRM123tf500116UYuKegek117
+    building_block_category_id: Nn1sn3jGfhcnFzPdQXLDWBwJ9VHESK9C9R0wX116mm3F0117
+    name: SSL
+    about: Use of SSL when communicating with virtualized API instances.
+    category_id: "216"
+    category: Core Virtualization
+    category_about: Containers are about managing virtualization at the compute level,
+      where API virtualization is looking to focus on the virtualization of APIs themselves,
+      and the data, content, and other resources that are being made available via
+      APIs.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
+    image: ""
+    image_width: "100"
+    sort_order: "0"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+- category_name: Data Virtualization
   building_blocks:
-  - building_block_id: 2s4RzYuywaQm123lq01zBo0NCWAdaV123ZL123quKiC02WoGw117
-    building_block_category_id: Lgu5subFtSKInF8s96otvQ7O116Pd6LDATKbEYxsc8OXk117
-    name: Generator
-    about: Generating an API definition format from an existing system or platform,
-      outputting the portable machine readable format.
-    category_id: "165"
-    category: Tooling
-    category_about: Tooling for working with API definitions, allowing them to be
-      more easily worked with throughout the API lifecycle--providing some common
-      tooling patterns across formats.
-    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
-    category_hex: '#6CBE45'
-    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-generate.png
-    image_width: "100"
-    sort_order: "1"
-    organizations: []
-    apis: []
-    links: []
-    tools: []
-    questions: []
-  - building_block_id: hRLQ7to3Kbil123aqTInMEzgdifrMJ123cp3dlBhC116jMWY8117
-    building_block_category_id: Lgu5subFtSKInF8s96otvQ7O116Pd6LDATKbEYxsc8OXk117
-    name: Parser
-    about: Parses a machine readable API definition and makes ready for use in specific
-      language, structure, or platform.
-    category_id: "165"
-    category: Tooling
-    category_about: Tooling for working with API definitions, allowing them to be
-      more easily worked with throughout the API lifecycle--providing some common
-      tooling patterns across formats.
-    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
-    category_hex: '#6CBE45'
-    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-parse.png
-    image_width: "100"
-    sort_order: "2"
-    organizations: []
-    apis: []
-    links: []
-    tools: []
-    questions: []
-  - building_block_id: cI1123JvrRnh9SjIxcpwfLBMfvnYC123wLHIHxO5GX8howI117
-    building_block_category_id: Lgu5subFtSKInF8s96otvQ7O116Pd6LDATKbEYxsc8OXk117
-    name: Validator
-    about: Validates an API definition against its formal specification and schema,
-      producing a valid or invalid response, with as much detail as possible.
-    category_id: "165"
-    category: Tooling
-    category_about: Tooling for working with API definitions, allowing them to be
-      more easily worked with throughout the API lifecycle--providing some common
-      tooling patterns across formats.
-    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
-    category_hex: '#6CBE45'
-    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-valid.png
-    image_width: "100"
-    sort_order: "3"
-    organizations: []
-    apis: []
-    links: []
-    tools: []
-    questions: []
-  - building_block_id: x25IHj4QvcoCbbGNbHwAmyh0ZURv2vl5npn123KusqnlI117
-    building_block_category_id: Lgu5subFtSKInF8s96otvQ7O116Pd6LDATKbEYxsc8OXk117
-    name: Converter
-    about: The conversion of an API definition from one format into another, allowing
-      designers to share API definitions in any format.
-    category_id: "165"
-    category: Tooling
-    category_about: Tooling for working with API definitions, allowing them to be
-      more easily worked with throughout the API lifecycle--providing some common
-      tooling patterns across formats.
-    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
-    category_hex: '#6CBE45'
-    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-conversion.png
-    image_width: "100"
-    sort_order: "4"
-    organizations: []
-    apis: []
-    links: []
-    tools: []
-    questions: []
-  - building_block_id: p2y6pnAb5LASKTRDy0xe6903t710u6L123VtKT123zm0jwo117
-    building_block_category_id: Lgu5subFtSKInF8s96otvQ7O116Pd6LDATKbEYxsc8OXk117
-    name: Command-Line
-    about: The usage of machine readable API definitions at the command line.
-    category_id: "165"
-    category: Tooling
-    category_about: Tooling for working with API definitions, allowing them to be
-      more easily worked with throughout the API lifecycle--providing some common
-      tooling patterns across formats.
-    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
-    category_hex: '#6CBE45'
-    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-command-line.png
-    image_width: "100"
-    sort_order: "5"
-    organizations: []
-    apis: []
-    links: []
-    tools: []
-    questions: []
-  - building_block_id: 5H9qAGcmxr4ansHVrci8aKaTMb6pZN123QME2LDLGjHWw117
-    building_block_category_id: Lgu5subFtSKInF8s96otvQ7O116Pd6LDATKbEYxsc8OXk117
-    name: Powershell
-    about: The usage of machine readable API definitions via the powershell interface.
-    category_id: "165"
-    category: Tooling
-    category_about: Tooling for working with API definitions, allowing them to be
-      more easily worked with throughout the API lifecycle--providing some common
-      tooling patterns across formats.
-    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
-    category_hex: '#6CBE45'
-    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-command-line.png
-    image_width: "100"
-    sort_order: "6"
-    organizations: []
-    apis: []
-    links: []
-    tools: []
-    questions: []
-  - building_block_id: MVAfucatujhaF3BFdfe15YEvDLsonorKacNIGpNDg7U117
-    building_block_category_id: Lgu5subFtSKInF8s96otvQ7O116Pd6LDATKbEYxsc8OXk117
-    name: Aggregator
-    about: Aggregation of APIs using a machine readable API definition format.
-    category_id: "165"
-    category: Tooling
-    category_about: Tooling for working with API definitions, allowing them to be
-      more easily worked with throughout the API lifecycle--providing some common
-      tooling patterns across formats.
-    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
-    category_hex: '#6CBE45'
-    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-arrow-aggregate.png
-    image_width: "100"
-    sort_order: "7"
-    organizations: []
-    apis: []
-    links: []
-    tools: []
-    questions: []
-  - building_block_id: PwjBUrc54c7GYG2f123J1juQDdbknyex4PPETE0xWwwnY117
-    building_block_category_id: Lgu5subFtSKInF8s96otvQ7O116Pd6LDATKbEYxsc8OXk117
-    name: Translator
-    about: Being able to translate an API definition format from one format to another,
-      either manually or automatically.
-    category_id: "165"
-    category: Tooling
-    category_about: Tooling for working with API definitions, allowing them to be
-      more easily worked with throughout the API lifecycle--providing some common
-      tooling patterns across formats.
-    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
-    category_hex: '#6CBE45'
+  - building_block_id: s13JGAm22mbnEXpH8AYUEMKSnMpACrj8Oxynyf1ViKc117
+    building_block_category_id: uvuaHg63eH2kYHfCcSfhCAuNNa4AVOfE2WD1233I116USus117
+    name: Templates
+    about: Being able to create templates of data to be used when virtualized APIs
+      are setup.
+    category_id: "217"
+    category: Data Virtualization
+    category_about: What are some of the considerations when it comes to data virtualization?
+      How are providers, and platforms allowing for data to be virtualized, and made
+      available via APIs.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
     image: ""
     image_width: "100"
-    sort_order: "8"
+    sort_order: "0"
     organizations: []
     apis: []
     links: []
     tools: []
     questions: []
-  - building_block_id: NgSYqouecLSPOo3ws6X123SzDfxvhUYlfURQL11627nkYIA117
-    building_block_category_id: Lgu5subFtSKInF8s96otvQ7O116Pd6LDATKbEYxsc8OXk117
-    name: Merging
-    about: Tooling or other APIs that provide for the merging of common API definition
-      formats, allowing the granularity of what elements get merged, or do not get
-      merged. Ideally, this is an API, as well as simple web-based or desktop tooling
-      for API providers and consumers.
-    category_id: "165"
-    category: Tooling
-    category_about: Tooling for working with API definitions, allowing them to be
-      more easily worked with throughout the API lifecycle--providing some common
-      tooling patterns across formats.
-    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
-    category_hex: '#6CBE45'
+  - building_block_id: DLVjHt17cykiF8Yc7bG2BeGd123AcfujgZei57UJjbCEc117
+    building_block_category_id: uvuaHg63eH2kYHfCcSfhCAuNNa4AVOfE2WD1233I116USus117
+    name: Dummy Data
+    about: Dummy data sets that can be imported individually or as collections into
+      virtualized APIs.
+    category_id: "217"
+    category: Data Virtualization
+    category_about: What are some of the considerations when it comes to data virtualization?
+      How are providers, and platforms allowing for data to be virtualized, and made
+      available via APIs.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
     image: ""
     image_width: "100"
-    sort_order: "9"
+    sort_order: "0"
     organizations: []
     apis: []
     links: []
     tools: []
     questions: []
-  - building_block_id: LVo9cvIpmU116v6Z4VDyiYGhBUebTB0tRmtLzEP4OyRgk117
-    building_block_category_id: Lgu5subFtSKInF8s96otvQ7O116Pd6LDATKbEYxsc8OXk117
-    name: Diff
-    about: Providing side by side comparison of two API definitions, programmatically
-      and visually helping identify between two API definitions. This allows for API
-      architects, designers, and consumers to understand the completeness of two definitions,
-      in relation to each other.
-    category_id: "165"
-    category: Tooling
-    category_about: Tooling for working with API definitions, allowing them to be
-      more easily worked with throughout the API lifecycle--providing some common
-      tooling patterns across formats.
-    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-api-definitions.png
-    category_hex: '#6CBE45'
+  - building_block_id: pz123BkoG4123UQxiekaPjjdWQSIZgS05FaWYKrM5yYel1230117
+    building_block_category_id: uvuaHg63eH2kYHfCcSfhCAuNNa4AVOfE2WD1233I116USus117
+    name: Excel Data
+    about: Import of data from Microsoft Excel spreadsheets or Google sheets into
+      virtualized APIs.
+    category_id: "217"
+    category: Data Virtualization
+    category_about: What are some of the considerations when it comes to data virtualization?
+      How are providers, and platforms allowing for data to be virtualized, and made
+      available via APIs.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
     image: ""
     image_width: "100"
-    sort_order: "10"
+    sort_order: "0"
     organizations: []
     apis: []
     links: []
     tools: []
     questions: []
-- category_name: Environment
+- category_name: Import / Export
   building_blocks:
-  - building_block_id: O5MgO0uu8116I116gR116H2xAdnk123azgO3NCnDfoSNuUz2ivQ117
-    building_block_category_id: HE6nQvsU03WEAqm4lVLVDGqEKsK0oBisEUZQt8s32Vk117
-    name: Editors
-    about: API definition editor, allowing for the creation, import, and export of
-      API definition formats, providing a simple, IDE like API editing experience.
-    category_id: "310"
-    category: Environment
-    category_about: The environment where API definitions are worked with, whether
-      existing IDEs, cloud services, or possibly no environment at all in text editors.
-    category_image: ~
-    category_hex: ~
-    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-editor.png
-    image_width: "100"
-    sort_order: "1"
-    organizations: []
-    apis: []
-    links: []
-    tools: []
-    questions: []
-  - building_block_id: nWlw1ybZEfemgGF9kv9wagiut4Jiw0BDgafEyJEoBEA117
-    building_block_category_id: HE6nQvsU03WEAqm4lVLVDGqEKsK0oBisEUZQt8s32Vk117
-    name: IDE Plugin
-    about: Providing integration with existing integrated development environments
-      (IDE), giving developers API discovery, documentation, and integration tooling
-      within the IDE.
-    category_id: "310"
-    category: Environment
-    category_about: The environment where API definitions are worked with, whether
-      existing IDEs, cloud services, or possibly no environment at all in text editors.
-    category_image: ~
-    category_hex: ~
-    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-editor.png
-    image_width: "100"
-    sort_order: "2"
-    organizations: []
-    apis: []
-    links: []
-    tools: []
-    questions: []
-  - building_block_id: higs5OcV6Ge0XDJb0kizXsFcOi6CAsqX5XjrRiSaThg117
-    building_block_category_id: HE6nQvsU03WEAqm4lVLVDGqEKsK0oBisEUZQt8s32Vk117
-    name: Forms
-    about: Dynamically generating an HTML form from an API definition, allow for the
-      structure, and handling to be driven by an API definition.
-    category_id: "310"
-    category: Environment
-    category_about: The environment where API definitions are worked with, whether
-      existing IDEs, cloud services, or possibly no environment at all in text editors.
-    category_image: ~
-    category_hex: ~
-    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-forms.png
-    image_width: "100"
-    sort_order: "3"
-    organizations: []
-    apis: []
-    links: []
-    tools: []
-    questions: []
-  - building_block_id: kBD0UNMWyohC6En9ArxELcMalVY4S3GESaF2IWedDc0117
-    building_block_category_id: HE6nQvsU03WEAqm4lVLVDGqEKsK0oBisEUZQt8s32Vk117
-    name: GIthub
-    about: Allowing for the import, publishing, and syncing of API definitions and
-      schemas to Github for forking, and management using the social coding platform.
-    category_id: "310"
-    category: Environment
-    category_about: The environment where API definitions are worked with, whether
-      existing IDEs, cloud services, or possibly no environment at all in text editors.
-    category_image: ~
-    category_hex: ~
+  - building_block_id: II3KCUCe123HbGgxj1pM2Huig7hsdOg4ekXEC123BLATo123M117
+    building_block_category_id: ARSE1236qdREL6QQGSWbEn7rPeVIvH6nVU2OAkcfxkM123I117
+    name: Import OpenAPI Spec
+    about: Allow for the creation of virtualized APIs using existing OpenAPI Spec
+      definitions.
+    category_id: "218"
+    category: Import / Export
+    category_about: Like every other area of the life cycle, API virtualization is
+      being driven by common API definition formats. This are is in duplicate of every
+      other area of this research.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
     image: ""
     image_width: "100"
-    sort_order: "4"
+    sort_order: "0"
     organizations: []
     apis: []
     links: []
     tools: []
     questions: []
-- category_name: Backend
+  - building_block_id: 1JcbSbX5C7ni8AD30NNsxH9gRa5rVz5b9aHXSMz2W7c117
+    building_block_category_id: ARSE1236qdREL6QQGSWbEn7rPeVIvH6nVU2OAkcfxkM123I117
+    name: Import RAML
+    about: Allow for the creation of virtualized APIs using existing RAML definitions.
+    category_id: "218"
+    category: Import / Export
+    category_about: Like every other area of the life cycle, API virtualization is
+      being driven by common API definition formats. This are is in duplicate of every
+      other area of this research.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
+    image: ""
+    image_width: "100"
+    sort_order: "0"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: 8WiggyGRnfOABMQqNFK11691GF1CzxvvIe0sF36BavSkE117
+    building_block_category_id: ARSE1236qdREL6QQGSWbEn7rPeVIvH6nVU2OAkcfxkM123I117
+    name: Import API Blueprint
+    about: Allow for the creation of virtualized APIs using existing API Blueprint
+      definitions.
+    category_id: "218"
+    category: Import / Export
+    category_about: Like every other area of the life cycle, API virtualization is
+      being driven by common API definition formats. This are is in duplicate of every
+      other area of this research.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
+    image: ""
+    image_width: "100"
+    sort_order: "0"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: gQ7EpOwWk5bHpPsOGPQ2t116BbcUAoh2OYRv7lZGgYgxE117
+    building_block_category_id: ARSE1236qdREL6QQGSWbEn7rPeVIvH6nVU2OAkcfxkM123I117
+    name: Import WADL
+    about: Allow for the creation of virtualized APIs using existing WADL definitions.
+    category_id: "218"
+    category: Import / Export
+    category_about: Like every other area of the life cycle, API virtualization is
+      being driven by common API definition formats. This are is in duplicate of every
+      other area of this research.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
+    image: ""
+    image_width: "100"
+    sort_order: "0"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+  - building_block_id: CS4pP9BAylq4Z123VvpBBw123GqkMLbTWHUFcjL6X5116U9xI117
+    building_block_category_id: ARSE1236qdREL6QQGSWbEn7rPeVIvH6nVU2OAkcfxkM123I117
+    name: Import Postman
+    about: Allow for the creation of virtualized APIs using existing Postman definitions.
+    category_id: "218"
+    category: Import / Export
+    category_about: Like every other area of the life cycle, API virtualization is
+      being driven by common API definition formats. This are is in duplicate of every
+      other area of this research.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
+    image: ""
+    image_width: "100"
+    sort_order: "0"
+    organizations: []
+    apis: []
+    links: []
+    tools: []
+    questions: []
+- category_name: Other Elements
   building_blocks:
-  - building_block_id: 6dLFbFWJW0nmg116iiq123aCpT4EeVvOC724VwW2B116FmmIY117
-    building_block_category_id: dz4dXzUXlzZAfBR116fbvcvwEiLf5V9YLrC5CEdtx7iIg117
-    name: Database
-    about: Tooling that generates an API definition format from a database connection,
-      allowing for API integration with common database formats
-    category_id: "311"
-    category: Backend
-    category_about: The behind the scenes infrastructure that is often used to define
-      how APIs will be designed by providing auto-generation features using popular
-      API definition formats.
-    category_image: ~
-    category_hex: ~
-    image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-database-new.png
+  - building_block_id: kYivrpMpbOZmvA52m83PRCUQNB1VHgI116AGZKKk42lCI117
+    building_block_category_id: aqtz2gTBavfwy6eEdlT3QZm2BEkp19FQOvh69oh1jPg117
+    name: Reporting
+    about: Providing reporting tools on virtualized instances, providing developers
+      and consumers with snapshots of activity.
+    category_id: "219"
+    category: Other Elements
+    category_about: A general bucket for grouping anything else that may be used within
+      the API virtualization area.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
+    image: ""
     image_width: "100"
-    sort_order: "1"
+    sort_order: "0"
     organizations: []
     apis: []
     links: []
     tools: []
     questions: []
-  - building_block_id: 3z65p7jUa1DPhQ7y1xdLBx0D7EVXCg3eAiqrVAxE9QE117
-    building_block_category_id: dz4dXzUXlzZAfBR116fbvcvwEiLf5V9YLrC5CEdtx7iIg117
-    name: Files
-    about: Mount file stores and generate API definitions and schemas from the file
-      store structure.
-    category_id: "311"
-    category: Backend
-    category_about: The behind the scenes infrastructure that is often used to define
-      how APIs will be designed by providing auto-generation features using popular
-      API definition formats.
-    category_image: ~
-    category_hex: ~
+  - building_block_id: k0BfR98jBFGH4lr8G9qlcfkGd9ekXnm3TW38OYlDheQ117
+    building_block_category_id: aqtz2gTBavfwy6eEdlT3QZm2BEkp19FQOvh69oh1jPg117
+    name: Analytics
+    about: Provide real-time, and other analytics that give details of what is happening
+      with virtualized APIs as they operate.
+    category_id: "219"
+    category: Other Elements
+    category_about: A general bucket for grouping anything else that may be used within
+      the API virtualization area.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
     image: ""
     image_width: "100"
-    sort_order: "2"
+    sort_order: "0"
     organizations: []
     apis: []
     links: []
     tools: []
     questions: []
-- category_name: Other
-  building_blocks:
-  - building_block_id: ee116m123OIku5fSCYZsPk9uHmedSNaZg116vskSia116yBhpdU117
-    building_block_category_id: rB116ZEVdIJTrfXmw116irtBbgEDRMcKouiKXd1PnVGGlSQ117
-    name: Attribution
-    about: Where did the API definition originate? Is there a source where all or
-      part of the API design came from? Providing design, or operational attribution,
-      done via one of the API definitions.
-    category_id: "312"
-    category: Other
-    category_about: The linking available within API definition files, allowing for
-      the referencing of key elements of the API lifecycle.
-    category_image: ~
-    category_hex: ~
+  - building_block_id: bWYq4QkccNIvdq1hN9FApnDCAzqsyFT7iz2iSm0NX9Y117
+    building_block_category_id: aqtz2gTBavfwy6eEdlT3QZm2BEkp19FQOvh69oh1jPg117
+    name: Teams
+    about: Provide team tooling, allowing multiple individuals to work together when
+      monitoring API virtualizations.
+    category_id: "219"
+    category: Other Elements
+    category_about: A general bucket for grouping anything else that may be used within
+      the API virtualization area.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
     image: ""
     image_width: "100"
-    sort_order: "1"
+    sort_order: "0"
     organizations: []
     apis: []
     links: []
     tools: []
     questions: []
-  - building_block_id: g3iVl4CUL8VYyez7Ome9ofd123rPPUmhgMj411623EzvyWM117
-    building_block_category_id: rB116ZEVdIJTrfXmw116irtBbgEDRMcKouiKXd1PnVGGlSQ117
-    name: Annotation
-    about: Allowing for the annotation of API definitions, schemas, as part of the
-      API life cycle.
-    category_id: "312"
-    category: Other
-    category_about: The linking available within API definition files, allowing for
-      the referencing of key elements of the API lifecycle.
-    category_image: ~
-    category_hex: ~
+  - building_block_id: rmSwE1237rhF7HhKSxxq1dWzmQi116S5pCserl9aajttim0117
+    building_block_category_id: aqtz2gTBavfwy6eEdlT3QZm2BEkp19FQOvh69oh1jPg117
+    name: Sandbox Invites
+    about: Providing an invite system, to allow for the invitation of other users
+      to a sandbox environment. Provide ability to send, manage, and revoke.
+    category_id: "219"
+    category: Other Elements
+    category_about: A general bucket for grouping anything else that may be used within
+      the API virtualization area.
+    category_image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-virtulization.png
+    category_hex: '#FCCC0A'
     image: ""
     image_width: "100"
-    sort_order: "2"
-    organizations: []
-    apis: []
-    links: []
-    tools: []
-    questions: []
-  - building_block_id: 1kkLkdXdllZvebYAR116123Rs01ebu57AuLj116XkzadeHf6Q117
-    building_block_category_id: rB116ZEVdIJTrfXmw116irtBbgEDRMcKouiKXd1PnVGGlSQ117
-    name: Proxy
-    about: Allowing for the proxying of API requests and responses using tools like
-      Charles Proxy, or Prism from Stoplight, and generating of API definitions and
-      schemas from the traffic.
-    category_id: "312"
-    category: Other
-    category_about: The linking available within API definition files, allowing for
-      the referencing of key elements of the API lifecycle.
-    category_image: ~
-    category_hex: ~
-    image: ""
-    image_width: "100"
-    sort_order: "3"
+    sort_order: "0"
     organizations: []
     apis: []
     links: []
