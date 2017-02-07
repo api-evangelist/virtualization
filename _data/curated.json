@@ -1,5 +1,21 @@
 [
 	{
+		"curated_id": "VfBs2iRN6fnkrpV5Eo2Rcl7GyUU5b1sRqU7dus2IXFG50OsehkiPNSOtQIhrign4VTtRs5FNOYQ1EWanN7H0vw117117",
+		"item_date": "2017-01-30 00:00:00",
+		"title": "Using Service Virtualization Instead of Depending on Others for API Testing",
+		"url": "https://dzone.com/articles/tired-of-depending-on-others-for-api-testing-servi",
+		"domain": "dzone.com",
+		"image": ""
+	},
+	{
+		"curated_id": "uXy26b5mTgWmkT9wB4TZqDe2QsMkjBB2dgxYfS68vaFNRCTrwsa42N0spgZ78FIzw1i2wVGvkpeQTZ123t116mlM123A117117",
+		"item_date": "2017-01-30 13:25:40",
+		"title": "4 Data Virtualization Vendors to watch in 2017",
+		"url": "http://solutionsreview.com/data-integration/4-data-virtualization-vendors-to-watch-in-2017/",
+		"domain": "solutionsreview.com",
+		"image": ""
+	},
+	{
 		"curated_id": "C116xhHBS4HvMfVhGvl4123cnyxNk123pZaYuQBLr0YoHNqpipj9TUvDZAAsa57Z4BBpNq6nlXEVHhk66AKvLV6CKxbA117117",
 		"item_date": "2017-01-03 00:00:00",
 		"title": "Generating Test Data with Faker and friends",
