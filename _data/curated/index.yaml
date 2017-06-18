@@ -1,16 +1,4 @@
 ---
-- curated_id: 4ee9f7adffe535954788651632ca0318
-  item_date: "2013-04-16 17:31:37"
-  title: apiphany - Global API Delivery Platform
-  url: http://apiphany.com/blog/apiphany-virtualization-feature-is-the-answer
-  domain: apiphany.com
-  image: ""
-- curated_id: a226f2c3896cbfe46a556dd98a70dad8
-  item_date: "2013-08-03 00:00:00"
-  title: Provisioning virtual appliances with Vagrant
-  url: https://blog.repustate.com/provisioning-virtual-appliances-with-vagrant/2013/08/03/
-  domain: blog.repustate.com
-  image: ""
 - curated_id: 16a093370354b5f9e5dcb661382c0f9b
   item_date: "2015-03-31 00:00:00"
   title: Patterns of API Virtualization
@@ -83,17 +71,17 @@
   url: http://www.programmableweb.com/news/amazon-announces-mock-integration-feature-api-gateway/brief/2015/09/03
   domain: www.programmableweb.com
   image: ""
-- curated_id: 862278519c2894637737a57d68dda39a
-  item_date: "2015-09-24 00:00:00"
-  title: Pinterest opens developer sandbox for API access, inspiring new apps
-  url: http://www.zdnet.com/article/pinterest-launching-developer-sandbox-for-api-access/#ftag=RSSbaffb68
-  domain: www.zdnet.com
-  image: ""
 - curated_id: a672ab9f4369ca784a3d9b671ebf6389
   item_date: "2015-09-24 00:00:00"
   title: API Virtualization Infographic from ServiceV Pro
   url: http://blog.smartbear.com/apis/api-virtualization-infographic-from-servicev-pro/
   domain: blog.smartbear.com
+  image: ""
+- curated_id: 862278519c2894637737a57d68dda39a
+  item_date: "2015-09-24 00:00:00"
+  title: Pinterest opens developer sandbox for API access, inspiring new apps
+  url: http://www.zdnet.com/article/pinterest-launching-developer-sandbox-for-api-access/#ftag=RSSbaffb68
+  domain: www.zdnet.com
   image: ""
 - curated_id: 5152f36b4ff022d61dd5bea1ae85ebeb
   item_date: "2015-09-24 00:00:00"
@@ -143,18 +131,18 @@
   url: http://www.zdnet.com/article/airwatch-8-3-released-with-focus-on-it-transparency/#ftag=RSSbaffb68
   domain: www.zdnet.com
   image: ""
-- curated_id: 095d698efd4fc6bc512b90d0909de9a5
-  item_date: "2016-02-18 00:00:00"
-  title: Announcing Ready! API 1.6 for Enterprise Testing and Virtualization
-  url: http://blog.smartbear.com/api-testing/announcing-ready-api-1-6-for-enterprise-testing-and-virtualization/
-  domain: blog.smartbear.com
-  image: ""
 - curated_id: d59d101678eeb4b9ebfba4964176139d
   item_date: "2016-02-18 00:00:00"
   title: 'Article: Stubbing, Mocking and Service Virtualization Differences for Test
     and Development Teams'
   url: http://www.infoq.com/articles/stubbing-mocking-service-virtualization-differences
   domain: www.infoq.com
+  image: ""
+- curated_id: 095d698efd4fc6bc512b90d0909de9a5
+  item_date: "2016-02-18 00:00:00"
+  title: Announcing Ready! API 1.6 for Enterprise Testing and Virtualization
+  url: http://blog.smartbear.com/api-testing/announcing-ready-api-1-6-for-enterprise-testing-and-virtualization/
+  domain: blog.smartbear.com
   image: ""
 - curated_id: 8c1b3ed608a04d03ce95ee70bc9823a3
   item_date: "2016-03-02 00:00:00"
@@ -180,17 +168,17 @@
   url: https://apiplug.com/blog/api-plug-sandbox-environment-launched/
   domain: apiplug.com
   image: ""
-- curated_id: 8f87708cc9c2749b231247518bc11257
-  item_date: "2016-03-22 00:00:00"
-  title: Your Splunk Sandbox
-  url: http://blogs.splunk.com/2016/03/22/your-splunk-sandbox/
-  domain: blogs.splunk.com
-  image: ""
 - curated_id: 3f4614dc7cf05a9c94667ab4ba4525a1
   item_date: "2016-03-22 00:00:00"
   title: 'Simulating APIs: The fastest way to stimulate your online economy'
   url: http://inform.tmforum.org/features-and-analysis/featured/2016/03/simulating-apis-the-fastest-way-to-stimulate-your-online-economy/
   domain: inform.tmforum.org
+  image: ""
+- curated_id: 8f87708cc9c2749b231247518bc11257
+  item_date: "2016-03-22 00:00:00"
+  title: Your Splunk Sandbox
+  url: http://blogs.splunk.com/2016/03/22/your-splunk-sandbox/
+  domain: blogs.splunk.com
   image: ""
 - curated_id: a8141e994246fdd48a9fa1dee2c69d28
   item_date: "2016-03-24 00:00:00"
@@ -284,17 +272,17 @@
   url: https://twitter.com/dwolla/statuses/755388979789258752
   domain: twitter.com
   image: ""
-- curated_id: f621a61777dc875ecd15a774d6013865
-  item_date: "2016-08-02 00:00:00"
-  title: Living Computer Museum restores Xerox Alto and debuts new emulator
-  url: https://techcrunch.com/2016/08/02/living-computer-museum-restores-xerox-alto-and-debuts-new-emulator/
-  domain: techcrunch.com
-  image: ""
 - curated_id: 4b8d71c2b6dfe0e6d9038e8c928287a0
   item_date: "2016-08-02 00:00:00"
   title: Dummi ? The smart way to generate generated data for your projects.
   url: http://dummi.io/
   domain: dummi.io
+  image: ""
+- curated_id: f621a61777dc875ecd15a774d6013865
+  item_date: "2016-08-02 00:00:00"
+  title: Living Computer Museum restores Xerox Alto and debuts new emulator
+  url: https://techcrunch.com/2016/08/02/living-computer-museum-restores-xerox-alto-and-debuts-new-emulator/
+  domain: techcrunch.com
   image: ""
 - curated_id: cab440e5699cc8f4149e9647810e4dad
   item_date: "2016-08-03 00:00:00"
@@ -308,18 +296,18 @@
   url: http://blogs.ca.com/2016/08/03/pokemon-service-virtualization/
   domain: blogs.ca.com
   image: ""
-- curated_id: 3debef6d3d3ca54d82f87935e80db37a
-  item_date: "2016-08-16 00:00:00"
-  title: Tips for Sandboxing Docker Containers
-  url: http://blogs.adobe.com/security/2016/08/tips-for-sandboxing-docker-containers.html
-  domain: blogs.adobe.com
-  image: ""
 - curated_id: 39f82f3fb3f8ddc6453542f06ee1bfa3
   item_date: "2016-08-16 00:00:00"
   title: API Mocking Tool WireMock v2 Released with Improved Request Matching and
     Stub Management
   url: https://www.infoq.com/news/2016/08/wiremock-v2-api-mocking
   domain: www.infoq.com
+  image: ""
+- curated_id: 3debef6d3d3ca54d82f87935e80db37a
+  item_date: "2016-08-16 00:00:00"
+  title: Tips for Sandboxing Docker Containers
+  url: http://blogs.adobe.com/security/2016/08/tips-for-sandboxing-docker-containers.html
+  domain: blogs.adobe.com
   image: ""
 - curated_id: 8a08b78be2545fba3033785ee98119e7
   item_date: "2016-08-17 00:00:00"
@@ -432,5 +420,127 @@
   title: FCA reveals identities of regulatory sandbox firms
   url: http://www.investmentweek.co.uk/investment-week/news/2476604/fca-reveals-identities-of-regulatory-sandbox-firms
   domain: www.investmentweek.co.uk
+  image: ""
+- curated_id: 5bc2f78e434dfd19a7e10623cacfdad5
+  item_date: "2017-01-02 00:00:00"
+  title: 'Java Bullshifier: Generate Massive Random Code Bases'
+  url: https://dzone.com/articles/java-bullshifier-generate-massive-random-code-base
+  domain: dzone.com
+  image: ""
+- curated_id: 7b32e98d9cbf636b47f4118fc3f3289e
+  item_date: "2017-01-03 00:00:00"
+  title: Generating Test Data with Faker and friends
+  url: https://unmesh.me/2017/01/03/generating-test-data-with-faker-and-friends/
+  domain: unmesh.me
+  image: ""
+- curated_id: fd122572f36e44a6499fc8fa49cbdbac
+  item_date: "2017-01-04 00:00:00"
+  title: JUnit Testing Using EasyMock
+  url: https://dzone.com/articles/junit-using-easymock
+  domain: dzone.com
+  image: ""
+- curated_id: dd76a163beef283a0a14db5ea8ebaae8
+  item_date: "2017-01-30 00:00:00"
+  title: Using Service Virtualization Instead of Depending on Others for API Testing
+  url: http://servicevirtualization.com/tired-depending-others-api-testing-service-virtualization-rescue/
+  domain: servicevirtualization.com
+  image: ""
+- curated_id: 9b17ad3d8ac502bf9cb0a414def4c986
+  item_date: "2017-01-30 13:25:40"
+  title: 4 Data Virtualization Vendors to watch in 2017
+  url: http://solutionsreview.com/data-integration/4-data-virtualization-vendors-to-watch-in-2017/
+  domain: solutionsreview.com
+  image: ""
+- curated_id: c7a39d25a66baffeb1552cba8ffa833d
+  item_date: "2017-02-09 10:27:53"
+  title: Mocking API Data
+  url: https://medium.com/@willcurry/mocking-api-data-c1731afbd4c9#.iejq8yqma
+  domain: medium.com
+  image: ""
+- curated_id: 4e329b3cb67d62c25727df3a1c7927cb
+  item_date: "2017-02-10 09:11:41"
+  title: Standard Chartered debuts API sandbox for corporate community
+  url: https://www.finextra.com/newsarticle/30121/standard-chartered-debuts-api-sandbox-for-corporate-community
+  domain: www.finextra.com
+  image: ""
+- curated_id: 6848ba6e11d604f51dca6e1d249e3fc2
+  item_date: "2017-02-21 00:00:00"
+  title: Cisco Accelerates Digital Network Transformation with New Virtualization
+    and Security Technologies
+  url: https://newsroom.cisco.com/press-release-content
+  domain: newsroom.cisco.com
+  image: ""
+- curated_id: f4fee95e2dd2e345df346cf03dcd50fa
+  item_date: "2017-03-08 00:00:00"
+  title: Switch easily from staging to production using Environments in Restlet Client
+  url: https://restlet.com/company/blog/2017/03/08/switch-easily-from-staging-to-production-using-environments-in-restlet-client/
+  domain: restlet.com
+  image: ""
+- curated_id: 0e38bb93893ef68a78b0964fe7168157
+  item_date: "2017-03-15 00:00:00"
+  title: Simulated vs. Real-Device Testing
+  url: https://dzone.com/articles/simulated-vs-real-device-testing
+  domain: dzone.com
+  image: ""
+- curated_id: 8c8913e0e167cff0e93861e910fb6b57
+  item_date: "2017-03-16 14:32:36"
+  title: Simulate a back end with Postmans mock service
+  url: http://blog.getpostman.com/2017/03/16/simulate-a-back-end-with-postmans-mock-service/
+  domain: blog.getpostman.com
+  image: ""
+- curated_id: c1bf1213bed1504083c64c13e85eabc9
+  item_date: "2017-04-06 00:00:00"
+  title: Simulate APIs and Backend Server with New Postman Mock Server Feature
+  url: https://www.programmableweb.com/news/simulate-apis-and-backend-server-new-postman-mock-server-feature/brief/2017/04/06
+  domain: www.programmableweb.com
+  image: ""
+- curated_id: 6e7d83e30ed1108c2f79c67a6b2effbf
+  item_date: "2017-04-07 00:00:00"
+  title: Can Service Virtualization Boost Agile Testing Strategy?
+  url: https://dzone.com/articles/can-service-virtualization-boost-agile-testing-str
+  domain: dzone.com
+  image: ""
+- curated_id: 92252b96232175d533c3a69cfcc4f6b8
+  item_date: "2017-04-07 00:00:00"
+  title: Simulation-Driven Motor Design for Vehicle Electrification
+  url: http://spectrum.ieee.org/webinar/simulation-driven-motor-design-for-vehicle-electrification
+  domain: spectrum.ieee.org
+  image: ""
+- curated_id: a9333092636523eca30e67b473601087
+  item_date: "2017-04-26 00:00:00"
+  title: More Than Meets the API. Service Virtualization is Being Transformed
+  url: http://blog.smartbear.com/service-virtualization/more-than-meets-the-api-service-virtualization-is-being-transformed/
+  domain: blog.smartbear.com
+  image: ""
+- curated_id: df977339f251916ce37da7d5a8587d5e
+  item_date: "2017-04-27 00:00:00"
+  title: Hacking Alexa Skills With Service Virtualization
+  url: http://embedded-computing.com/articles/hacking-alexa-skills-with-service-virtualization-the-value-of-simulation-for-iot/
+  domain: embedded-computing.com
+  image: ""
+- curated_id: 6567c0744c1bd59af69980752d94b8f0
+  item_date: "2017-04-28 09:54:11"
+  title: 'Tweet: Simulate a backend server for testing with Postmanrsquo;s new mock
+    service. Find out how: https://t.co/uIKCLJf8Pd'
+  url: https://twitter.com/postmanclient/statuses/858001410553769985
+  domain: twitter.com
+  image: ""
+- curated_id: c988024a3e136b6560ca19f5986f7583
+  item_date: "2017-04-29 00:00:00"
+  title: 'Test-Driven Service Virtualization: End-to-End Regression Testing in CI/CD'
+  url: https://dzone.com/articles/test-driven-service-virtualization-end-to-end-regr
+  domain: dzone.com
+  image: ""
+- curated_id: e6da1ab174dbb0c743e8338bf1f86bb9
+  item_date: "2017-05-02 00:00:00"
+  title: Designing Heart-Assist Devices with Multiphysics Simulation
+  url: http://spectrum.ieee.org/biomedical/devices/designing-heartassist-devices-with-multiphysics-simulation
+  domain: spectrum.ieee.org
+  image: ""
+- curated_id: 1bb919ddd01936bff2d673b7b868b230
+  item_date: "2017-05-03 00:00:00"
+  title: Building better mock servers for mobile with Speakeasy
+  url: https://blog.intercom.com/building-better-mock-servers-mobile-speakeasy/
+  domain: blog.intercom.com
   image: ""
 ...
