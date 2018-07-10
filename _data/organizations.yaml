@@ -110,9 +110,9 @@
   github: ""
   blog: http://soa-testing.blogspot.com/
   blogrss: http://feeds.feedburner.com/soatesting?format=xml
-  logo: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/crosscheck-networks.png
   logo_width: "150"
-  screenshot: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/crosscheck-networks.png
   tags: API Gateways,API Service Provider,Enterprise,Profiled,SaaS,Security,Stack
     Network,Technology,Testing,Virtualization
   apis: []
@@ -414,8 +414,8 @@
   github: ""
   blog: ""
   blogrss: ""
-  logo: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
+  logo: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/wiremock.jpg
   logo_width: "150"
-  screenshot: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
+  screenshot: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/wiremock.jpg
   tags: SaaS,Technology,Virtualization
   apis: []
