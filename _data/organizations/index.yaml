@@ -183,9 +183,22 @@
 - id: n5ia6KDM076u1d9wY6LGUkQpKQDP1fOV8v2VthEbuS4117
   name: MockLab
   summary: MockLab helps teams ship better apps faster by mocking APIs that arent
-    ready, dont have a reliable sandbox or have high usage charges.
+    ready, dont have a reliable sandbox or have high usage charges. Keep building
+    and testing when the APIs you use arent ready. Ship more robust systems by simulating
+    edge cases and faults. Performance testing without large 3rd party bills. Simulate
+    stateful behaviour in your mocked API using a simple finite state machine model.
   details: MockLab helps teams ship better apps faster by mocking APIs that arent
-    ready, dont have a reliable sandbox or have high usage charges.
+    ready, dont have a reliable sandbox or have high usage charges. Keep building
+    and testing when the APIs you use arent ready. Ship more robust systems by simulating
+    edge cases and faults. Performance testing without large 3rd party bills. Simulate
+    stateful behaviour in your mocked API using a simple finite state machine model.
+    Dynamically render responses using the Handlebars templating language. Craft your
+    simulation using the friendly, no-code UI or go fully automated with the 100%
+    WireMock-compatible API. Capture traffic to another API, then play it back from
+    MockLab. Mock the unfinished parts of the API and proxy the rest straight through
+    to the real thing. Test your app to destruction by injecting delays, dropped connections,
+    drip-drip responses and corrupt HTTP payloads. All the power and flexibility you
+    need for pain-free testing.
   website: https://get.mocklab.io
   twitter: https://twitter.com/TomAkehurst
   github: ""
