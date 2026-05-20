@@ -1,0 +1,378 @@
+vocabulary: "1.0.0"
+
+info:
+  provider: Virtualization
+  description: >-
+    Vocabulary for the virtualization topic, spanning two intertwined domains: machine
+    virtualization (hypervisors, virtual machines, VDI, and cloud VM platforms) and
+    API/service virtualization (mock servers, service mocks, and contract-based stubs).
+  created: '2026-05-19'
+  modified: '2026-05-19'
+
+operational:
+  apis:
+    - name: Amazon EC2
+      namespace: amazon-ec2
+      status: active
+    - name: Azure Virtual Machines
+      namespace: microsoft-azure-virtual-machines
+      status: active
+    - name: Google Cloud Compute Engine
+      namespace: google-cloud-compute-engine
+      status: active
+    - name: VMware
+      namespace: vmware
+      status: active
+    - name: Proxmox VE
+      namespace: proxmox
+      status: active
+    - name: Nutanix
+      namespace: nutanix
+      status: active
+    - name: OpenStack
+      namespace: openstack
+      status: active
+    - name: KubeVirt
+      namespace: kubevirt
+      status: active
+    - name: WireMock
+      namespace: wiremock
+      status: active
+    - name: Microcks
+      namespace: microcks
+      status: active
+    - name: MockServer
+      namespace: mockserver
+      status: active
+    - name: Hoverfly
+      namespace: hoverfly
+      status: active
+    - name: Mockoon
+      namespace: mockoon
+      status: active
+    - name: Prism
+      namespace: prism
+      status: active
+
+  resources:
+    - name: virtual-machines
+      description: Virtual machine instances managed by a hypervisor or cloud VM platform
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+        - start
+        - stop
+        - reboot
+        - snapshot
+    - name: vm-images
+      description: Operating system images and templates used to launch VMs (AMIs, OVAs, Vagrant boxes, Proxmox templates)
+      actions:
+        - list
+        - get
+        - create
+        - delete
+    - name: hypervisors
+      description: Physical or logical hypervisor hosts that run virtual machines
+      actions:
+        - list
+        - get
+    - name: networks
+      description: Virtual networks, subnets, and security groups attached to VMs
+      actions:
+        - list
+        - get
+        - create
+        - delete
+    - name: mock-endpoints
+      description: Individual virtualized API endpoints exposed by a mock server
+      actions:
+        - list
+        - get
+        - create
+        - update
+        - delete
+        - enable
+        - disable
+    - name: mock-scenarios
+      description: Stateful scenarios or state machines composed of multiple mock endpoints
+      actions:
+        - list
+        - get
+        - create
+        - delete
+        - reset
+    - name: contracts
+      description: Source contracts (OpenAPI, AsyncAPI, GraphQL, Pact, Postman Collections) used to generate mocks
+      actions:
+        - list
+        - get
+        - import
+        - delete
+
+  actions:
+    - name: list
+      description: Enumerate resources
+      httpMethod: GET
+      pattern: read
+    - name: get
+      description: Retrieve a single resource
+      httpMethod: GET
+      pattern: read
+    - name: create
+      description: Provision a new VM, mock, network, or other resource
+      httpMethod: POST
+      pattern: write
+    - name: update
+      description: Update an existing resource
+      httpMethod: PUT
+      pattern: write
+    - name: delete
+      description: Remove a resource
+      httpMethod: DELETE
+      pattern: destructive
+    - name: start
+      description: Power on a virtual machine
+      httpMethod: POST
+      pattern: lifecycle
+    - name: stop
+      description: Power off a virtual machine
+      httpMethod: POST
+      pattern: lifecycle
+    - name: reboot
+      description: Restart a virtual machine
+      httpMethod: POST
+      pattern: lifecycle
+    - name: snapshot
+      description: Capture a point-in-time snapshot of a VM
+      httpMethod: POST
+      pattern: write
+    - name: enable
+      description: Activate a mock endpoint or scenario
+      httpMethod: POST
+      pattern: state
+    - name: disable
+      description: Deactivate a mock endpoint or scenario
+      httpMethod: POST
+      pattern: state
+    - name: reset
+      description: Reset a mock scenario to its initial state
+      httpMethod: POST
+      pattern: state
+    - name: import
+      description: Import a source contract (OpenAPI, AsyncAPI, Pact, Postman) into a mock server
+      httpMethod: POST
+      pattern: write
+
+  schemas:
+    core:
+      - name: VirtualMachine
+        description: A virtual machine instance running on a hypervisor or cloud VM platform
+        properties:
+          - id
+          - name
+          - platform
+          - region
+          - image
+          - instance_type
+          - cpu
+          - memory_mb
+          - storage_gb
+          - network
+          - state
+          - tags
+          - created_at
+      - name: MockEndpoint
+        description: A virtualized API endpoint configured in an API mocking or service virtualization tool
+        properties:
+          - id
+          - name
+          - tool
+          - source
+          - request
+          - response
+          - scenario
+          - enabled
+
+  enums:
+    vm_platforms:
+      - vmware-vsphere
+      - microsoft-hyper-v
+      - kvm
+      - xen
+      - qemu
+      - proxmox-ve
+      - nutanix-ahv
+      - citrix-hypervisor
+      - amazon-ec2
+      - azure-vm
+      - google-compute-engine
+      - digitalocean
+      - linode
+      - hetzner
+      - scaleway
+      - ovhcloud
+      - openstack-nova
+      - kubevirt
+      - firecracker
+      - lima
+      - vagrant
+    vm_states:
+      - pending
+      - running
+      - stopping
+      - stopped
+      - rebooting
+      - terminating
+      - terminated
+      - error
+    mock_tools:
+      - wiremock
+      - microcks
+      - hoverfly
+      - mockserver
+      - mockoon
+      - postman-mock-server
+      - smartbear-servicev
+      - stoplight-prism
+      - beeceptor
+      - mockaroo
+      - pact-stubs
+      - blazemeter-mock
+      - specmatic
+      - speedscale
+      - mock-service-worker
+      - mockapi
+    mock_sources:
+      - openapi
+      - asyncapi
+      - graphql
+      - grpc
+      - postman-collection
+      - pact-contract
+      - manual
+      - recorded-traffic
+
+capability:
+  workflows:
+    - name: Provision Cloud VM Fleet
+      description: Provision, tag, and lifecycle-manage a fleet of cloud virtual machines through provider APIs
+      apis:
+        - amazon-ec2
+        - microsoft-azure-virtual-machines
+        - google-cloud-compute-engine
+        - digital-ocean
+        - linode
+      personas:
+        - Platform Engineer
+      domains:
+        - Cloud VM
+    - name: Operate Private Hypervisor Cluster
+      description: Manage VMs, images, networks, and storage across a self-hosted VMware, Proxmox, Nutanix, or OpenStack cluster
+      apis:
+        - vmware
+        - proxmox
+        - nutanix
+        - openstack
+      personas:
+        - Virtualization Administrator
+      domains:
+        - Private Cloud
+    - name: Stand Up API Mocks from OpenAPI
+      description: Generate runnable API mocks from OpenAPI, AsyncAPI, or Postman contracts and host them in a virtualization tool
+      apis:
+        - microcks
+        - wiremock
+        - prism
+        - postman
+        - mockoon
+      personas:
+        - API Developer
+      domains:
+        - API Virtualization
+    - name: Contract-Based Service Virtualization in CI
+      description: Use service virtualization in CI pipelines to test microservices against deterministic mocked dependencies
+      apis:
+        - wiremock
+        - hoverfly
+        - mockserver
+        - specmatic
+        - pact
+      personas:
+        - QA Engineer
+      domains:
+        - Service Virtualization
+
+  personas:
+    - id: platform-engineer
+      name: Platform Engineer
+      description: Engineers operating self-service VM provisioning and lifecycle across cloud and private infrastructure
+      workflows:
+        - Provision Cloud VM Fleet
+    - id: virtualization-administrator
+      name: Virtualization Administrator
+      description: Administrators running on-premises hypervisor and HCI clusters
+      workflows:
+        - Operate Private Hypervisor Cluster
+    - id: api-developer
+      name: API Developer
+      description: Developers building APIs who need mocks to unblock consumers and validate contracts
+      workflows:
+        - Stand Up API Mocks from OpenAPI
+    - id: qa-engineer
+      name: QA Engineer
+      description: Quality engineers using service virtualization to test microservices deterministically
+      workflows:
+        - Contract-Based Service Virtualization in CI
+
+  domains:
+    - name: Cloud VM
+      description: Cloud provider virtual machine offerings (EC2, Azure VMs, Compute Engine, Droplets, Linode, Hetzner, Scaleway, OVH)
+    - name: Private Cloud
+      description: Self-hosted hypervisor and HCI platforms (VMware, Hyper-V, Proxmox, Nutanix, OpenStack, KubeVirt)
+    - name: API Virtualization
+      description: Tools that simulate API behavior from contracts (WireMock, Microcks, Mockoon, Prism, Postman Mock Server)
+    - name: Service Virtualization
+      description: Tools and practices for simulating service dependencies in test environments (Hoverfly, MockServer, Pact, Specmatic, Speedscale)
+
+crossReference:
+  - resource: virtual-machines
+    operations:
+      - list
+      - get
+      - create
+      - start
+      - stop
+      - snapshot
+    workflows:
+      - Provision Cloud VM Fleet
+      - Operate Private Hypervisor Cluster
+    personas:
+      - Platform Engineer
+      - Virtualization Administrator
+  - resource: mock-endpoints
+    operations:
+      - list
+      - create
+      - update
+      - enable
+      - disable
+    workflows:
+      - Stand Up API Mocks from OpenAPI
+      - Contract-Based Service Virtualization in CI
+    personas:
+      - API Developer
+      - QA Engineer
+  - resource: contracts
+    operations:
+      - import
+      - list
+      - get
+    workflows:
+      - Stand Up API Mocks from OpenAPI
+      - Contract-Based Service Virtualization in CI
+    personas:
+      - API Developer
+      - QA Engineer

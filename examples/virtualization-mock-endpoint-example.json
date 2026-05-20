@@ -1,0 +1,30 @@
+{
+  "id": "mock-payments-charge-201",
+  "name": "Create Charge - Success",
+  "tool": "wiremock",
+  "source": "openapi",
+  "request": {
+    "method": "POST",
+    "path": "/v1/charges",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body_matcher": "json-path"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+      "id": "ch_123",
+      "object": "charge",
+      "amount": 1999,
+      "currency": "usd",
+      "status": "succeeded"
+    },
+    "delay_ms": 150
+  },
+  "scenario": "charge-success-flow",
+  "enabled": true
+}

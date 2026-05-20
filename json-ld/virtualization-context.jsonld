@@ -1,0 +1,136 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "virt": "https://api-evangelist.github.io/virtualization/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcat": "https://www.w3.org/ns/dcat#",
+
+    "VirtualMachine": "virt:VirtualMachine",
+    "MockEndpoint": "virt:MockEndpoint",
+    "VMImage": "virt:VMImage",
+    "MockScenario": "virt:MockScenario",
+
+    "name": "schema:name",
+    "description": "schema:description",
+    "provider": "schema:provider",
+
+    "id": {
+      "@id": "schema:identifier",
+      "@type": "xsd:string"
+    },
+    "platform": {
+      "@id": "virt:platform",
+      "@type": "xsd:string"
+    },
+    "region": {
+      "@id": "virt:region",
+      "@type": "xsd:string"
+    },
+    "image": {
+      "@id": "virt:image",
+      "@type": "@id"
+    },
+    "instance_type": {
+      "@id": "virt:instance_type",
+      "@type": "xsd:string"
+    },
+    "cpu": {
+      "@id": "virt:cpu",
+      "@type": "xsd:integer"
+    },
+    "memory_mb": {
+      "@id": "virt:memory_mb",
+      "@type": "xsd:integer"
+    },
+    "storage_gb": {
+      "@id": "virt:storage_gb",
+      "@type": "xsd:integer"
+    },
+    "network": {
+      "@id": "virt:network",
+      "@type": "@id"
+    },
+    "private_ip": {
+      "@id": "virt:private_ip",
+      "@type": "xsd:string"
+    },
+    "public_ip": {
+      "@id": "virt:public_ip",
+      "@type": "xsd:string"
+    },
+    "vpc_id": {
+      "@id": "virt:vpc_id",
+      "@type": "xsd:string"
+    },
+    "state": {
+      "@id": "virt:state",
+      "@type": "xsd:string"
+    },
+    "tags": {
+      "@id": "dcat:keyword",
+      "@container": "@set",
+      "@type": "xsd:string"
+    },
+    "created_at": {
+      "@id": "dcterms:created",
+      "@type": "xsd:dateTime"
+    },
+
+    "tool": {
+      "@id": "virt:tool",
+      "@type": "xsd:string"
+    },
+    "source": {
+      "@id": "dcterms:source",
+      "@type": "xsd:string"
+    },
+    "request": {
+      "@id": "virt:request",
+      "@type": "@id"
+    },
+    "response": {
+      "@id": "virt:response",
+      "@type": "@id"
+    },
+    "method": {
+      "@id": "virt:httpMethod",
+      "@type": "xsd:string"
+    },
+    "path": {
+      "@id": "virt:path",
+      "@type": "xsd:string"
+    },
+    "headers": {
+      "@id": "virt:headers"
+    },
+    "body_matcher": {
+      "@id": "virt:body_matcher",
+      "@type": "xsd:string"
+    },
+    "status": {
+      "@id": "virt:status",
+      "@type": "xsd:integer"
+    },
+    "body": {
+      "@id": "virt:body"
+    },
+    "delay_ms": {
+      "@id": "virt:delay_ms",
+      "@type": "xsd:integer"
+    },
+    "scenario": {
+      "@id": "virt:scenario",
+      "@type": "xsd:string"
+    },
+    "enabled": {
+      "@id": "virt:enabled",
+      "@type": "xsd:boolean"
+    },
+    "os_family": {
+      "@id": "virt:os_family",
+      "@type": "xsd:string"
+    }
+  }
+}

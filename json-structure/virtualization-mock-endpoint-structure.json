@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/virtualization/refs/heads/main/json-structure/virtualization-mock-endpoint-structure.json",
+  "name": "MockEndpoint",
+  "description": "Represents a virtualized API endpoint configured in an API/service virtualization tool such as WireMock, Microcks, Hoverfly, MockServer, Mockoon, Prism, or Postman Mock Server.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the mock endpoint.",
+      "example": "mock-payments-charge-201"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name for the mock endpoint.",
+      "example": "Create Charge - Success"
+    },
+    "tool": {
+      "type": "string",
+      "description": "API virtualization tool hosting this mock endpoint.",
+      "enum": [
+        "wiremock",
+        "microcks",
+        "hoverfly",
+        "mockserver",
+        "mockoon",
+        "postman-mock-server",
+        "smartbear-servicev",
+        "stoplight-prism",
+        "beeceptor",
+        "mockaroo",
+        "pact-stubs",
+        "blazemeter-mock",
+        "specmatic",
+        "speedscale",
+        "mock-service-worker",
+        "mockapi",
+        "other"
+      ],
+      "example": "wiremock"
+    },
+    "source": {
+      "type": "string",
+      "description": "Source contract or definition the mock was generated from.",
+      "enum": [
+        "openapi",
+        "asyncapi",
+        "graphql",
+        "grpc",
+        "postman-collection",
+        "pact-contract",
+        "manual",
+        "recorded-traffic"
+      ],
+      "example": "openapi"
+    },
+    "request": {
+      "type": "object",
+      "description": "Request matching configuration for this mock.",
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": [
+            "GET",
+            "POST",
+            "PUT",
+            "PATCH",
+            "DELETE",
+            "HEAD",
+            "OPTIONS"
+          ],
+          "example": "POST"
+        },
+        "path": {
+          "type": "string",
+          "description": "URL path the mock matches, supporting templates and wildcards.",
+          "example": "/v1/charges"
+        },
+        "headers": {
+          "type": "map",
+          "values": {
+            "type": "string"
+          },
+          "description": "Header matchers required for this mock to fire."
+        },
+        "body_matcher": {
+          "type": "string",
+          "description": "Body match strategy.",
+          "enum": [
+            "none",
+            "exact",
+            "json-path",
+            "regex",
+            "schema"
+          ],
+          "example": "json-path"
+        }
+      },
+      "required": [
+        "method",
+        "path"
+      ]
+    },
+    "response": {
+      "type": "object",
+      "description": "Response returned when the mock matches.",
+      "properties": {
+        "status": {
+          "type": "int32",
+          "description": "HTTP status code returned by the mock.",
+          "example": 201
+        },
+        "headers": {
+          "type": "map",
+          "values": {
+            "type": "string"
+          },
+          "description": "Response headers returned by the mock."
+        },
+        "body": {
+          "type": "any",
+          "description": "Response body returned by the mock."
+        },
+        "delay_ms": {
+          "type": "int32",
+          "description": "Artificial response latency in milliseconds.",
+          "example": 150
+        }
+      },
+      "required": [
+        "status"
+      ]
+    },
+    "scenario": {
+      "type": "string",
+      "description": "Stateful scenario or state machine the mock participates in.",
+      "example": "charge-success-flow"
+    },
+    "enabled": {
+      "type": "boolean",
+      "description": "Whether the mock is currently active.",
+      "example": true
+    }
+  },
+  "required": [
+    "name",
+    "tool",
+    "request",
+    "response"
+  ]
+}

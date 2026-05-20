@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/virtualization/refs/heads/main/json-schema/virtualization-virtual-machine-schema.json",
+  "title": "VirtualMachine",
+  "description": "Represents a virtual machine instance running on a hypervisor or cloud VM platform, including identity, sizing, image, networking, and lifecycle state.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Provider-assigned unique identifier for the virtual machine.",
+      "example": "i-0abcd1234ef567890"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name of the virtual machine.",
+      "example": "web-prod-01"
+    },
+    "platform": {
+      "type": "string",
+      "description": "Hypervisor or cloud platform that hosts this virtual machine.",
+      "enum": [
+        "vmware-vsphere",
+        "microsoft-hyper-v",
+        "kvm",
+        "xen",
+        "qemu",
+        "proxmox-ve",
+        "nutanix-ahv",
+        "citrix-hypervisor",
+        "amazon-ec2",
+        "azure-vm",
+        "google-compute-engine",
+        "digitalocean",
+        "linode",
+        "hetzner",
+        "scaleway",
+        "ovhcloud",
+        "openstack-nova",
+        "kubevirt",
+        "firecracker",
+        "lima",
+        "vagrant",
+        "other"
+      ],
+      "example": "amazon-ec2"
+    },
+    "region": {
+      "type": "string",
+      "description": "Region or datacenter location of the virtual machine.",
+      "example": "us-east-1"
+    },
+    "image": {
+      "type": "object",
+      "description": "Operating system image or template used to launch the VM.",
+      "properties": {
+        "id": { "type": "string", "example": "ami-0c55b159cbfafe1f0" },
+        "name": { "type": "string", "example": "Ubuntu 24.04 LTS" },
+        "os_family": {
+          "type": "string",
+          "enum": ["linux", "windows", "bsd", "other"],
+          "example": "linux"
+        }
+      }
+    },
+    "instance_type": {
+      "type": "string",
+      "description": "Provider-specific size or flavor of the VM.",
+      "example": "t3.medium"
+    },
+    "cpu": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Number of vCPUs allocated to the VM.",
+      "example": 2
+    },
+    "memory_mb": {
+      "type": "integer",
+      "minimum": 64,
+      "description": "Memory allocated to the VM in megabytes.",
+      "example": 4096
+    },
+    "storage_gb": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Primary disk size allocated to the VM in gigabytes.",
+      "example": 80
+    },
+    "network": {
+      "type": "object",
+      "description": "Networking configuration for the VM.",
+      "properties": {
+        "private_ip": { "type": "string", "example": "10.0.1.42" },
+        "public_ip": { "type": "string", "example": "203.0.113.10" },
+        "vpc_id": { "type": "string", "example": "vpc-0e123abc456def789" }
+      }
+    },
+    "state": {
+      "type": "string",
+      "description": "Current lifecycle state of the VM.",
+      "enum": ["pending", "running", "stopping", "stopped", "rebooting", "terminating", "terminated", "error"],
+      "example": "running"
+    },
+    "tags": {
+      "type": "object",
+      "description": "Free-form tags applied to the VM for grouping and policy.",
+      "additionalProperties": { "type": "string" },
+      "example": { "environment": "production", "owner": "platform" }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when the VM was created.",
+      "example": "2026-05-18T14:32:10Z"
+    }
+  },
+  "required": ["name", "platform", "state"]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "i-0abcd1234ef567890",
+  "name": "web-prod-01",
+  "platform": "amazon-ec2",
+  "region": "us-east-1",
+  "image": {
+    "id": "ami-0c55b159cbfafe1f0",
+    "name": "Ubuntu 24.04 LTS",
+    "os_family": "linux"
+  },
+  "instance_type": "t3.medium",
+  "cpu": 2,
+  "memory_mb": 4096,
+  "storage_gb": 80,
+  "network": {
+    "private_ip": "10.0.1.42",
+    "public_ip": "203.0.113.10",
+    "vpc_id": "vpc-0e123abc456def789"
+  },
+  "state": "running",
+  "tags": {
+    "environment": "production",
+    "owner": "platform",
+    "application": "web"
+  },
+  "created_at": "2026-05-18T14:32:10Z"
+}

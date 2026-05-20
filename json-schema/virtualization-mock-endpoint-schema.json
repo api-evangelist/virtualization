@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/virtualization/refs/heads/main/json-schema/virtualization-mock-endpoint-schema.json",
+  "title": "MockEndpoint",
+  "description": "Represents a virtualized API endpoint configured in an API/service virtualization tool such as WireMock, Microcks, Hoverfly, MockServer, Mockoon, Prism, or Postman Mock Server.",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the mock endpoint.",
+      "example": "mock-payments-charge-201"
+    },
+    "name": {
+      "type": "string",
+      "description": "Human-readable name for the mock endpoint.",
+      "example": "Create Charge - Success"
+    },
+    "tool": {
+      "type": "string",
+      "description": "API virtualization tool hosting this mock endpoint.",
+      "enum": [
+        "wiremock",
+        "microcks",
+        "hoverfly",
+        "mockserver",
+        "mockoon",
+        "postman-mock-server",
+        "smartbear-servicev",
+        "stoplight-prism",
+        "beeceptor",
+        "mockaroo",
+        "pact-stubs",
+        "blazemeter-mock",
+        "specmatic",
+        "speedscale",
+        "mock-service-worker",
+        "mockapi",
+        "other"
+      ],
+      "example": "wiremock"
+    },
+    "source": {
+      "type": "string",
+      "description": "Source contract or definition the mock was generated from.",
+      "enum": ["openapi", "asyncapi", "graphql", "grpc", "postman-collection", "pact-contract", "manual", "recorded-traffic"],
+      "example": "openapi"
+    },
+    "request": {
+      "type": "object",
+      "description": "Request matching configuration for this mock.",
+      "properties": {
+        "method": {
+          "type": "string",
+          "enum": ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"],
+          "example": "POST"
+        },
+        "path": {
+          "type": "string",
+          "description": "URL path the mock matches, supporting templates and wildcards.",
+          "example": "/v1/charges"
+        },
+        "headers": {
+          "type": "object",
+          "description": "Header matchers required for this mock to fire.",
+          "additionalProperties": { "type": "string" },
+          "example": { "Content-Type": "application/json" }
+        },
+        "body_matcher": {
+          "type": "string",
+          "description": "Body match strategy.",
+          "enum": ["none", "exact", "json-path", "regex", "schema"],
+          "example": "json-path"
+        }
+      },
+      "required": ["method", "path"]
+    },
+    "response": {
+      "type": "object",
+      "description": "Response returned when the mock matches.",
+      "properties": {
+        "status": {
+          "type": "integer",
+          "minimum": 100,
+          "maximum": 599,
+          "example": 201
+        },
+        "headers": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "example": { "Content-Type": "application/json" }
+        },
+        "body": {
+          "description": "Response body returned by the mock (object, string, or null).",
+          "example": { "id": "ch_123", "status": "succeeded" }
+        },
+        "delay_ms": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Artificial response latency in milliseconds.",
+          "example": 150
+        }
+      },
+      "required": ["status"]
+    },
+    "scenario": {
+      "type": "string",
+      "description": "Stateful scenario or state machine the mock participates in.",
+      "example": "charge-success-flow"
+    },
+    "enabled": {
+      "type": "boolean",
+      "description": "Whether the mock is currently active.",
+      "example": true
+    }
+  },
+  "required": ["name", "tool", "request", "response"]
+}

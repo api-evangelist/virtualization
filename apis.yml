@@ -1,0 +1,172 @@
+aid: virtualization
+name: Virtualization
+description: >-
+  An index and topic collection covering virtualization across two intertwined domains: machine virtualization (hypervisors, virtual machines,
+  VDI, and cloud VM platforms) and API/service virtualization (mock servers, service mocks, and contract-based stubs). Machine virtualization
+  abstracts physical hardware so multiple isolated operating systems can run on shared infrastructure, while API virtualization simulates the
+  behavior of real APIs and services so teams can develop, test, and demo against realistic endpoints without depending on live production
+  systems. This collection brings together hypervisors and VM platforms like VMware, Hyper-V, KVM, Xen, Proxmox, Nutanix, and KubeVirt; cloud
+  VM offerings from AWS, Azure, Google Cloud, DigitalOcean, Linode, Hetzner, Scaleway, and OVHcloud; and API/service virtualization tools like
+  WireMock, Microcks, Hoverfly, MockServer, Mockoon, Prism, Beeceptor, Pact, Specmatic, ReadyAPI, and Speedscale.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+- Virtualization
+- VM
+- Hypervisor
+- API Virtualization
+- Service Virtualization
+- Mock Server
+- VDI
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/virtualization/refs/heads/main/apis.yml
+created: '2026-05-19'
+modified: '2026-05-19'
+specificationVersion: '0.19'
+apis: []
+network:
+- name: Amazon EC2
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2/refs/heads/main/apis.yml
+- name: Amazon EC2 Auto Scaling
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-auto-scaling/refs/heads/main/apis.yml
+- name: Amazon EC2 Image Builder
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-ec2-image-builder/refs/heads/main/apis.yml
+- name: Amazon Lightsail
+  url: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/apis.yml
+- name: Azure Virtual Machines
+  url: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-virtual-machines/refs/heads/main/apis.yml
+- name: Beeceptor
+  url: https://raw.githubusercontent.com/api-evangelist/beeceptor/refs/heads/main/apis.yml
+- name: Broadcom
+  url: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/apis.yml
+- name: Citrix
+  url: https://raw.githubusercontent.com/api-evangelist/citrix/refs/heads/main/apis.yml
+- name: Digital Ocean
+  url: https://raw.githubusercontent.com/api-evangelist/digital-ocean/refs/heads/main/apis.yml
+- name: Firecracker
+  url: https://raw.githubusercontent.com/api-evangelist/firecracker/refs/heads/main/apis.yml
+- name: Google Cloud Compute Engine
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-compute-engine/refs/heads/main/apis.yml
+- name: Google Cloud VMware Engine
+  url: https://raw.githubusercontent.com/api-evangelist/google-cloud-vmware-engine/refs/heads/main/apis.yml
+- name: Hetzner
+  url: https://raw.githubusercontent.com/api-evangelist/hetzner/refs/heads/main/apis.yml
+- name: Hoverfly
+  url: https://raw.githubusercontent.com/api-evangelist/hoverfly/refs/heads/main/apis.yml
+- name: KubeVirt
+  url: https://raw.githubusercontent.com/api-evangelist/kubevirt/refs/heads/main/apis.yml
+- name: Lima
+  url: https://raw.githubusercontent.com/api-evangelist/lima/refs/heads/main/apis.yml
+- name: Linode
+  url: https://raw.githubusercontent.com/api-evangelist/linode/refs/heads/main/apis.yml
+- name: Microcks
+  url: https://raw.githubusercontent.com/api-evangelist/microcks/refs/heads/main/apis.yml
+- name: Mock Service Worker
+  url: https://raw.githubusercontent.com/api-evangelist/mock-service-worker/refs/heads/main/apis.yml
+- name: mockAPI
+  url: https://raw.githubusercontent.com/api-evangelist/mockapi/refs/heads/main/apis.yml
+- name: Mockoon
+  url: https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/apis.yml
+- name: MockServer
+  url: https://raw.githubusercontent.com/api-evangelist/mockserver/refs/heads/main/apis.yml
+- name: Nutanix
+  url: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/apis.yml
+- name: OpenStack
+  url: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/apis.yml
+- name: OVH Cloud
+  url: https://raw.githubusercontent.com/api-evangelist/ovh-cloud/refs/heads/main/apis.yml
+- name: Pact
+  url: https://raw.githubusercontent.com/api-evangelist/pact/refs/heads/main/apis.yml
+- name: Postman
+  url: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/apis.yml
+- name: Prism
+  url: https://raw.githubusercontent.com/api-evangelist/prism/refs/heads/main/apis.yml
+- name: Proxmox VE
+  url: https://raw.githubusercontent.com/api-evangelist/proxmox/refs/heads/main/apis.yml
+- name: ReadyAPI
+  url: https://raw.githubusercontent.com/api-evangelist/readyapi/refs/heads/main/apis.yml
+- name: Scaleway
+  url: https://raw.githubusercontent.com/api-evangelist/scaleway/refs/heads/main/apis.yml
+- name: SmartBear
+  url: https://raw.githubusercontent.com/api-evangelist/smartbear/refs/heads/main/apis.yml
+- name: Specmatic
+  url: https://raw.githubusercontent.com/api-evangelist/specmatic/refs/heads/main/apis.yml
+- name: Speedscale
+  url: https://raw.githubusercontent.com/api-evangelist/speedscale/refs/heads/main/apis.yml
+- name: Stoplight
+  url: https://raw.githubusercontent.com/api-evangelist/stoplight/refs/heads/main/apis.yml
+- name: Vagrant
+  url: https://raw.githubusercontent.com/api-evangelist/vagrant/refs/heads/main/apis.yml
+- name: VMware
+  url: https://raw.githubusercontent.com/api-evangelist/vmware/refs/heads/main/apis.yml
+- name: VMware Tanzu
+  url: https://raw.githubusercontent.com/api-evangelist/vmware-tanzu/refs/heads/main/apis.yml
+- name: WireMock
+  url: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/apis.yml
+common:
+- type: Portal
+  url: https://apievangelist.com
+- type: GitHubOrganization
+  url: https://github.com/api-evangelist
+- type: Features
+  data:
+  - name: Hypervisors and Virtual Machine Platforms
+    description: Type-1 and type-2 hypervisors (VMware vSphere/ESXi, Microsoft Hyper-V, KVM, Xen, Proxmox VE, Nutanix AHV, Citrix Hypervisor) abstract physical hardware so multiple isolated guest operating systems can share compute, memory, and storage.
+  - name: Cloud Virtual Machines
+    description: Cloud providers expose VM-as-a-service offerings (Amazon EC2, Azure Virtual Machines, Google Compute Engine, DigitalOcean Droplets, Linode, Hetzner, Scaleway, OVHcloud) that programmatically provision, scale, and manage VMs across regions and instance types.
+  - name: VM Images and Templates
+    description: Image and template tooling (EC2 Image Builder, Vagrant boxes, OVAs, AMIs, Proxmox templates) capture reproducible OS and application baselines that can be launched as new VMs on demand.
+  - name: Lightweight and Container-Native Virtualization
+    description: Modern microVM and container-native virtualization platforms (Firecracker, KubeVirt, Lima) deliver VM isolation with container-like density and startup times for serverless, multi-tenant, and developer workloads.
+  - name: API and Service Virtualization
+    description: API virtualization tools (WireMock, Microcks, Hoverfly, MockServer, Mockoon, Prism, Beeceptor) simulate the behavior of real HTTP, REST, gRPC, and message-based services so teams can develop, test, and demo against realistic endpoints without live dependencies.
+  - name: Contract Testing and Mocking from OpenAPI
+    description: Contract-based virtualization (Pact stubs, Specmatic, Prism, Microcks, Postman Mock Server) generates mocks directly from OpenAPI, AsyncAPI, GraphQL, and Pact contracts to validate consumer/provider behavior throughout the SDLC.
+  - name: Performance and Traffic Replay
+    description: Tools like Speedscale and Hoverfly capture and replay real production traffic against virtualized services for load testing, regression testing, and resilience engineering.
+- type: UseCases
+  data:
+  - name: Infrastructure Consolidation and Server Virtualization
+    description: Enterprises consolidate physical servers onto VMware vSphere, Hyper-V, or Proxmox clusters to improve hardware utilization, simplify operations, and enable live migration of workloads.
+  - name: Self-Service Cloud VM Provisioning
+    description: Platform teams expose Amazon EC2, Azure VMs, or Google Compute Engine through internal portals and APIs so developers can spin up VMs on demand without raising tickets.
+  - name: Local Development Environments with Vagrant and Lima
+    description: Developers use Vagrant, Lima, and similar tools to reproducibly build local VM-based environments that match production OS, runtime, and dependency baselines.
+  - name: Parallel Front-End and Back-End Development
+    description: Front-end and back-end teams use WireMock, Mockoon, or Postman Mock Server to virtualize APIs from OpenAPI contracts so UI work can proceed before the real backend is implemented.
+  - name: Integration Testing Against Third-Party APIs
+    description: QA teams virtualize third-party APIs (payments, identity, shipping) with Microcks, MockServer, or Hoverfly to run integration tests deterministically without hitting rate limits or burning real money.
+  - name: Demos and Sales Engineering Environments
+    description: Sales engineers and partners use API mocks and lightweight VMs to spin up disposable demo environments that look and behave like production without exposing real customer data.
+  - name: Disaster Recovery and VM Migration
+    description: Operators use VMware, Nutanix, and OpenStack tooling to snapshot, replicate, and migrate VMs across sites for DR drills, datacenter exits, and cloud migrations.
+- type: Integrations
+  data:
+  - name: VMware
+    description: Enterprise virtualization platform spanning vSphere, ESXi, NSX, and vCenter for managing VMs, networking, and storage across private and hybrid clouds.
+  - name: Amazon EC2
+    description: AWS elastic compute service providing on-demand virtual machines across hundreds of instance types, AMIs, and regions through a programmable API.
+  - name: Azure Virtual Machines
+    description: Microsoft Azure's IaaS VM offering with Linux and Windows images, scale sets, spot instances, and tight integration with Azure networking and identity.
+  - name: Google Cloud Compute Engine
+    description: Google Cloud's VM service offering custom machine types, live migration, sole-tenant nodes, and confidential VMs.
+  - name: Proxmox VE
+    description: Open-source virtualization platform combining KVM hypervisor and LXC containers with a unified web UI and REST API for self-hosted clouds.
+  - name: Nutanix
+    description: Hyperconverged infrastructure platform with the AHV hypervisor that unifies compute, storage, and networking for private and hybrid clouds.
+  - name: WireMock
+    description: Open-source API mocking and service virtualization tool for HTTP services, widely used in CI pipelines and contract testing.
+  - name: Microcks
+    description: CNCF Sandbox API mocking and contract testing platform that turns OpenAPI, AsyncAPI, gRPC, and Postman collections into deployable mocks.
+  - name: Hoverfly
+    description: API simulation and service virtualization tool that captures and replays HTTP/HTTPS traffic for testing and development.
+  - name: MockServer
+    description: Flexible mock server for HTTP and HTTPS that can match requests, return canned responses, and verify expectations across multiple languages.
+  - name: Mockoon
+    description: Desktop and CLI tool for designing and running local API mocks from OpenAPI specs without writing code.
+  - name: Prism
+    description: Stoplight's open-source HTTP mock server and contract validator that runs OpenAPI 3 specs as live mock APIs.
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+humanURL: https://apievangelist.com
