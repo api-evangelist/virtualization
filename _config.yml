@@ -1,0 +1,27 @@
+title: Virtualization
+description: 'An index and topic collection covering virtualization across two intertwined
+  domains: machine virtualization (hypervisors, virtual machines, VDI, and cloud VM
+  platforms) and API/service virtualization (mock servers, service mocks, and contract-based
+  stubs). Machine virtualization abstracts physical hardware so multiple isolated
+  operating systems can run on shared infrastructure, while API virtualization simulates
+  the behavior of real APIs and services so teams can develop, test, and demo against
+  realistic endpoints without depending on live production systems. This collection
+  brings together hypervisors and VM platforms like VMware, Hyper-V, KVM, Xen, Proxmox,
+  Nutanix, and KubeVirt; cloud VM offerings from AWS, Azure, Google Cloud, DigitalOcean,
+  Linode, Hetzner, Scaleway, and OVHcloud; and API/service virtualization tools like
+  WireMock, Microcks, Hoverfly, MockServer, Mockoon, Prism, Beeceptor, Pact, Specmatic,
+  ReadyAPI, and Speedscale.'
+url: https://virtualization.apievangelist.com
+collections:
+  api_stories:
+    output: false
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+- Dockerfile
+- examples
+- json-ld
+- json-schema
+- json-structure
+- vocabulary
