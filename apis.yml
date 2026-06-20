@@ -9,7 +9,7 @@ description: >-
   VM offerings from AWS, Azure, Google Cloud, DigitalOcean, Linode, Hetzner, Scaleway, and OVHcloud; and API/service virtualization tools like
   WireMock, Microcks, Hoverfly, MockServer, Mockoon, Prism, Beeceptor, Pact, Specmatic, ReadyAPI, and Speedscale.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Virtualization
 - VM
