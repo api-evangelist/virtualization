@@ -1,6 +1,5 @@
 ---
-title: 'MCP Server Finance no Brasil: Como Conectar Agentes de IA ao Mercado Brasileiro
-  em 2026'
+title: 'MCP Server Finance no Brasil: Como Conectar Agentes de IA ao Mercado Brasileiro'
 link: https://brapi.dev/blog/mcp-server-finance-brasil-agentes-ia-2026
 published: '2026-04-09'
 provider: brapi
