@@ -1,7 +1,7 @@
 ---
-title: Never Ship an MCP Server Without a Rate Limit
-link: https://zuplo.com//blog/never-ship-mcp-server-without-rate-limit
-published: '2026-05-18'
+title: Decouple Agent Auth From Your MCP Server
+link: https://zuplo.com//blog/decouple-agent-auth-mcp-server
+published: '2026-07-15'
 provider: zuplo
 repo: https://github.com/api-evangelist/zuplo
 domain: zuplo.com
