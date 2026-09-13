@@ -1,7 +1,7 @@
 ---
-title: Bump.sh White-Labels the MCP Server, and Discovery Is the Next Problem
-link: https://apievangelist.com/2026/07/19/bump-white-labels-the-mcp-server-and-discovery-is-next/
-published: '2026-07-19'
+title: A Universal Install Interface for MCP Servers
+link: https://apievangelist.com/2026/07/23/a-universal-install-interface-for-mcp-servers/
+published: '2026-07-23'
 provider: schema-validation
 repo: https://github.com/api-evangelist/schema-validation
 domain: apievangelist.com
