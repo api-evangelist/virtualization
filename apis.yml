@@ -12,6 +12,14 @@ type: Index
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Virtualization
+- vm
+- Hypervisor
+- API Virtualization
+- Service Virtualization
+- Mock Servers
+- VDI
+tags_raw:
+- Virtualization
 - VM
 - Hypervisor
 - API Virtualization
