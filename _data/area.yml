@@ -14,11 +14,11 @@ meta:
     Beeceptor, Pact, Specmatic, ReadyAPI, and Speedscale.'
   tags:
   - Virtualization
-  - VM
+  - vm
   - Hypervisor
   - API Virtualization
   - Service Virtualization
-  - Mock Server
+  - Mock Servers
   - VDI
   portal: https://apievangelist.com
   github: https://github.com/api-evangelist
