@@ -1,7 +1,7 @@
 ---
-title: Buildkite MCP Server can now find your slowest and flakiest tests
-link: https://buildkite.com/resources/changelog/391-buildkite-mcp-server-can-now-find-your-slowest-and-flakiest-tests/
-published: '2026-08-12'
+title: Inspect a build's tests with the Test Engine API and MCP Server
+link: https://buildkite.com/resources/changelog/398-inspect-a-builds-tests-with-the-test-engine-api-and-mcp-server/
+published: '2026-08-25'
 provider: buildkite-com
 repo: https://github.com/api-evangelist/buildkite-com
 domain: buildkite.com
